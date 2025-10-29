@@ -1,16 +1,15 @@
-# Program Klasifikasi Usia
+# TODO: Fungsi untuk memeriksa apakah sebuah bilangan genap
+def is_even(num):
+    pass
 
-# 1. TODO: Baca input dari pengguna
+# Tes fungsi
+print(is_even(4))   # True
+print(is_even(7))   # False
 
-# 2. TODO Tentukan kategori berdasarkan usia
+# TODO: Fungsi untuk menghitung faktorial
+def factorial(n):
+    pass
 
-# 3. TODO: Cetak hasil klasifikasi
-
-usia = int(input("Masukkan usia: "))
-
-if usia <= 20:
-    print("Remaja")
-elif usia <= 40:
-    print("Dewasa")
-else:
-    print("Tua")
+# Tes fungsi
+print(factorial(5))  # 120
+print(factorial(0))  # 1

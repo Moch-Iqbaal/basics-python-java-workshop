@@ -8,4 +8,10 @@ word = input("Masukkan kata: ").lower()
 vowels = "aiueo"
 count = 0
 
+for kata in word:
+    if kata in vowels:
+        count += 1
+        
+
+
 print("Jumlah huruf vokal:", count)
