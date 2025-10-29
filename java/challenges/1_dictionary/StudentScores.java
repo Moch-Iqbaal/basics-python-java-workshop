@@ -6,8 +6,8 @@ public class StudentScores {
     public static void main(String[] args) {
         // TODO: Membuat HashMap untuk menyimpan pasangan nama-nilai
         Scanner input = new Scanner(System.in);
-
         System.out.println("=== Input Data Nilai Mahasiswa ===");
+        
 
         // Loop input data mahasiswa
         while (true) {
