@@ -31,6 +31,7 @@ public class cobaStudentsScores {
             for (Map.Entry<String, Integer> entry : scores.entrySet()) {
                 System.out.println(entry.getKey() + ": " + entry.getValue());
             }
-        }
+        }   
+        inputScanner.close();
     }
 }
